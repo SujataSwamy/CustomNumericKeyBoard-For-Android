@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/fragmentOneContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/fragmentOne"
+            class="com.demotutorial.customnumerickeyboard.fragment.FragmentOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_one"></fragment>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragmentTwoContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/fragmentTwo"
+            class="com.demotutorial.customnumerickeyboard.fragment.FragmentTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_two"></fragment>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragmentThreeContainer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/fragmentThree"
+            class="com.demotutorial.customnumerickeyboard.fragment.FragmentThree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_three"></fragment>
+    </RelativeLayout>
+
+</LinearLayout>

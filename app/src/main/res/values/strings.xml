@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomNumericKeyBoard</string>
+    <string name="fragment_text">I am a fragment</string>
+</resources>
