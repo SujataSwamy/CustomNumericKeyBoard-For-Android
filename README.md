@@ -1,0 +1,2 @@
+# CustomNumericKeyBoard-For-Android
+This is a custom numeric keyboard made for android devices. Its function is to take numeric data and add them to the edittext. You can further customize it according to your requirement. For example if you want to show the keyboard only in one part of the screen such as in a fragment of a tablet, you can add this custom keyboard in it. References: http://stackoverflow.com/questions/15099725/need-number-only-soft-keyboard/23843295#23843295
